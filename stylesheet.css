@@ -1,0 +1,1243 @@
+* {
+    margin: 0;
+    border: border-box;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.navbar {
+    width: 30%;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.navlogo {
+    height:70px;
+    width: 70px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+/* .logo {
+    background-image: url("logo.png");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    position: relative;
+    top: 5px;
+} */
+
+.navcontents {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.link1 {
+    background-color: rgb(224, 224, 224);
+    width: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0s;
+    transition-timing-function:ease-in-out;
+    transition-property: all;
+}
+
+.link2 {
+    background-color: rgb(224, 224, 224);
+    width: 80px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0s;
+    transition-timing-function:ease-in-out;
+    transition-property: all;
+}
+
+.link3 {
+    background-color: rgb(224, 224, 224);
+    width: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0s;
+    transition-timing-function:ease-in-out;
+    transition-property: all;
+}
+
+.link4 {
+    background-color: rgb(224, 224, 224);
+    width: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0s;
+    transition-timing-function:ease-in-out;
+    transition-property: all;
+}
+
+.link1:hover {
+    transform: scale(110%);
+}
+
+.link2:hover {
+    transform: scale(110%);
+}
+
+.link3:hover {
+    transform: scale(110%);
+}
+
+.link4:hover {
+    transform: scale(110%);
+}
+
+.hero {
+    position:static;
+}
+
+.heroimg {
+    background-image: url("./Asset/nasa.jpg");
+    height: 730px;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    opacity: 80%;
+}
+
+.heroempty {
+    height: 650px;
+    width: 100vw;
+    /* background-color: #e4faf2e0; */
+    opacity: 80%;
+}
+
+.herosentence {
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+.herointrodiv {
+    display: inline-block;
+    height: 750px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 220px;
+}
+
+.herointro {
+    font-size: 1.6rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    height: 750px;
+    width: 100vw;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 220px;
+}
+
+.heropredefine {
+    height: 50px;
+    width: 100vw;
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.herodefine {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+.heropost {
+    display: flex;
+    height: 45px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* border: 2px solid red; */
+    text-align: center;
+    left: 30%;
+}
+
+.herodef1 {
+    position: relative;
+    left: 10px;
+    animation: blinker 10s linear 0s infinite;
+}
+
+.herodef2 {
+    position: relative;
+    right: 220px;
+    animation: blinker1 10s linear 0s infinite;
+}
+
+.herodef3 {
+    position: relative;
+    right: 465px;
+    animation: blinker2 10s linear 0s infinite;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 0%;
+    }
+
+    14.2857% {
+        opacity: 100%;
+    }
+
+    28.5714% {
+        opacity: 100%;
+    }
+
+    42.8571% {
+        opacity: 0%;
+    }
+
+    57.1428% {
+        opacity: 0%;
+    }
+
+    71.4285% {
+        opacity: 0%;
+    }
+    
+    85.7142% {
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 0%;
+    }
+}
+
+@keyframes blinker1 {
+    0% {
+        opacity: 0%;
+    }
+
+    14.2857% {
+        opacity: 0%;
+    }
+
+    28.5714% {
+        opacity: 0%;
+    }
+
+    42.8571% {
+        opacity: 100%;
+    }
+
+    57.1428% {
+        opacity: 100%;
+    }
+
+    71.4285% {
+        opacity: 0%;
+    }
+    
+    85.7142% {
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 0%;
+    }
+}
+
+
+@keyframes blinker2 {
+    0% {
+        opacity: 0%;
+    }
+
+    14.2857% {
+        opacity: 0%;
+    }
+
+    28.5714% {
+        opacity: 0%;
+    }
+
+    42.8571% {
+        opacity: 0%;
+    }
+
+    57.1428% {
+        opacity: 0%;
+    }
+
+    71.4285% {
+        opacity: 100%;
+    }
+    
+    85.7142% {
+        opacity: 100%;
+    }
+
+    100%{
+        opacity: 0%;
+    }
+}
+
+
+.herointo p {
+    display: block;
+}
+
+.heroimg h1 {
+    color: white;
+}
+
+.heroempty i {
+    color: #0080ff;
+}
+
+.herosentence p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
+} 
+
+/* social media starts */
+
+.social {
+    height: 20px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia {
+    height: 20px;
+    width: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* social media ends */
+
+
+.about {
+    height: 560px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutdiv {
+    height: 580px;
+    width: 1200px;
+}
+
+.abouthead {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutself {
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.self {
+    text-align: center;
+}
+
+.aboutinfo {
+    height:380px;
+    width: 100%;
+    /* border: 2px solid rgb(255, 0, 0); */
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myphoto {
+    background-image: url("./Asset/my-photo.jpg");
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 10px;
+    /* position: relative;
+    left: 50px;
+    top: 60px; */
+    border-radius: 50%;
+}
+
+.aboutdetails {
+    height: 300px;
+    width: 650px;
+    /* border: 2px solid blue; */
+    margin-top: 50px;
+}
+
+.aboutdetails h2 {
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutdetails p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.aboutmyinfo {
+    height: 200px;
+    width: 650px;
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    display: flex;
+}
+
+.aboutdiv1 {
+    width: 325px;
+    height: 200px;
+    /* border: 2px solid red; */
+}
+
+.aboutdiv1 ul {
+    font-size: 1.1rem;
+    line-height:50px;
+}
+
+.aboutdiv2 {
+    width: 325px;
+    height: 200px;
+    /* border: 2px solid red; */
+}
+
+.aboutdiv2 ul {
+    font-size: 1.1rem;
+    line-height: 50px;
+}
+
+
+/* about ends here */
+
+
+/* skills starts here */
+
+.skills {
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsection {
+    height: 500px;
+    width: 1200px;
+    /* border: 2px solid black; */
+}
+
+.skillhead {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skillhead h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.allskills {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.skillpercentage {
+    height: 360px;
+    width: 100%;
+    /* border: 2px solid rgb(5, 250, 46); */
+    display: flex;
+    border-bottom: 2px solid rgb(192, 192, 192);
+}
+
+.skillname{
+    display: flex;
+}
+
+.skilllast1 {
+    /* border: 2px solid black; */
+    margin-left: 345px;
+}
+
+.skilllast2 {
+    /* border: 2px solid black; */
+    margin-left: 335px;
+}
+
+.skilllast3 {
+    /* border: 2px solid black; */
+    margin-left: 268px;
+}
+
+.skilllast4 {
+    /* border: 2px solid black; */
+    margin-left: 410px;
+}
+
+.skilllast5 {
+    /* border: 2px solid black; */
+    margin-left: 432px;
+}
+
+.skilllast6 {
+    /* border: 2px solid black; */
+    margin-left: 388px;
+}
+
+.skilldefine {
+    height: 60px;
+    width: 500px;
+    /* border: 2px solid rgb(0, 106, 255); */
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.percenttag {
+    height: 20px;
+    width: 500px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    background-color: rgb(219, 235, 249);
+    margin-top: 10px;
+}
+
+.presscolor {
+    height: 20px;
+    width: 85%;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+}
+
+.mouldcolor {
+    height: 20px;
+    width: 85%;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+}
+
+.CADcolor {
+    height: 20px;
+    width: 90%;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+}
+
+.HTMLcolor {
+    height: 20px;
+    width: 70%;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+}
+
+.CSScolor {
+    height: 20px;
+    width: 70%;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+}
+
+.JScolor {
+    height: 20px;
+    width: 60%;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+}
+
+
+/* skills ends here */
+
+
+/* resume starts here */
+
+.resume {
+    height: 950px;
+    width: 100vw;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+}
+
+.resumename {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+.resumealign {
+    height: 850px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+    margin-top: 50px;
+}
+
+.resumepart {
+    height: 850px;
+    width: 1200px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    border-bottom: 2px solid rgb(192, 192, 192);
+}
+
+.resumepart hr {
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 770px;
+}
+
+.resumepart1 {
+    height: 850px;
+    width: 600px;
+    /* border: 2px solid black; */
+}
+
+.resumepart1 h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 10px;
+    margin-top: 30px;
+}
+
+.resumepart1 h3 {
+    position: relative;
+    left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900px;
+}
+
+.resumepart1 p {
+    position: relative;
+    width: 520px;
+    left: 40px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.resumepart1 ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.edu{
+    margin-top: 50px;
+}
+
+
+.resumepart2 {
+    height: 850px;
+    width: 600px;
+    /* border: 2px solid black; */
+    
+}
+
+.resumepart2 h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 10px;
+    margin-top: 30px;
+}
+
+.resumepart2 h3 {
+    position: relative;
+    left: 40px;
+    margin-top: 20px;
+    font-weight: 900px;
+}
+
+.resumepart2 p {
+    position: relative;
+    width: 560px;
+    left: 40px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.resumepart2 ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+.edu{
+    margin-top: 50px;
+}
+
+.year p {
+    background-color: aliceblue;
+    width: 100px;
+    padding: 7px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Profession ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+.project ul {
+    margin-top: 20px;
+}
+
+/* resume ends here */
+
+
+
+/* portfolio starts here */
+.portfolio{
+    height: 580px;
+    width: 100vw;
+    margin-top: 90px;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.portfolio-head {
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.portfolio-body {
+    height: 480px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.portfolio-section {
+    height: 450px;
+    width: 1200px;
+    /* border: 2px solid rgb(51, 0, 255); */
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(174, 174, 174);
+}
+
+.portfolio-div {
+    height: 470px;
+    width: 600px;
+    /* border: 2px solid rgb(0, 255, 60); */
+}
+
+.content-head {
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.portfolio-content {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(255, 0, 204); */
+}
+
+.mechclick {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    border-radius: 50%;
+    /* border-right: 5px solid rgb(0, 179, 255);
+    border-left: 5px solid rgb(0, 179, 255); */
+    margin-right: 0px;
+    margin-left: 0px;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+    transition-property: all;
+}
+
+.mechclick:hover {
+    transform: scale(110%);
+    /* border-left: 5px solid rgb(255, 153, 0);
+    border-right: 5px solid rgb(255, 153, 0); */
+}
+
+
+
+
+
+.mechhead h1 {
+    font-style: normal;
+
+}
+
+.intromech{
+    display:inline-block;
+    width: 500px;
+}
+
+.intromech p {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gearanimation {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+
+.gear1 {
+    background-image: url("./Asset/gear-1119298_1280.png");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    animation: antigearanimate;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 80px;
+    top: 0px;
+}
+
+.gear2 {
+    background-image: url("./Asset/gear-1119298_1280.png");
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    animation: gearanimate;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: -30px;
+    bottom: 45px;
+}
+
+@keyframes gearanimate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+    
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes antigearanimate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        transform: rotate(-180deg);
+    }
+    
+    75% {
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+.webdevclick {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    border-radius: 50%;
+    /* border: 5px solid rgb(0, 179, 255); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+
+.webdevclick:hover {
+    transform: scale(110%);
+    /* border-left: 5px solid rgb(255, 153, 0);
+    border-right: 5px solid rgb(255, 153, 0); */
+}
+
+.introwebdev {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.webdevhead h1 {
+    font-style:normal;
+}
+
+.webdevanimation {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.webdevleft {
+    height: 200px;
+    width: 200px;
+}
+
+.introcontent a {
+    text-decoration: none;
+}
+
+.webdevlogo {
+    background-image: url("./Asset/1code-img.png");
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    margin-top: 20px;
+    /* filter: drop-shadow(0px 0px 5px
+    rgba(0, 6, 6, 8)); */
+    /* animation: bgcolor 3s ease-in-out 0s infinite;*/
+}
+
+
+/* @keyframes bgcolor {
+    0% {
+        filter: drop-shadow(0px 0px 10px
+    rgba(231, 6, 6, 8));
+    }
+
+    100% {
+        filter: drop-shadow(0px 0px 20px
+        rgba(00,6,6,5));
+    }
+} */
+
+
+
+/* porfolio ends here */
+
+
+
+/* contact starts Here */
+
+
+.contact {
+    height: 400px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+.contact-name {
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* border: 2px solid black; */
+}
+
+.contact-details {
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.contact-width {
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    /* border: 2px solid rgb(11, 255, 121); */
+}
+
+.contact-info {
+    height: 300px;
+    width: 400px;
+    /* border: 2px solid black; */
+}
+
+.contact-form {
+    height: 300px;
+    width: 800px;
+    /* border: 2px solid black; */
+}
+
+.conatct-div {
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-info :hover {
+    background: transparent;
+    border-radius: 40px;
+}
+
+.function-details {
+    height: 80px;
+    width: 310px;
+    /* border: 2px solid black; */
+    margin-left: 15px;
+}
+
+.function-details h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+.function-details p {
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+.function-logo {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(194, 227, 255);
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.form-div {
+    height: 270px;
+    width: 660px;
+    /* border: 2px solid black; */
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+input {
+    height: 30px;
+    width: 290px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: rgb(229, 243, 255);
+    border: none;
+}
+
+.subject {
+    width: 611px;
+    border-radius: 5px;
+    background-color: rgb(229, 243, 255);
+    border: none;
+}
+
+.explain {
+    margin-left: 20px;
+    width: 611px;
+    border-radius: 10px;
+    background-color: rgb(229, 243, 255);
+    border: none;
+}
+
+.submit-button {
+    padding: 5px;
+    border: none;
+    background-color: #3b9af9;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+.contact-form-hr {
+    width: 1200px;
+    margin-left: 100px;
+} 
+
+/* contact Ends Here */
+
+/*Footer Starts here*/
+
+
+.footer-content {
+    height: 200px;
+    width: 100vw;
+    background-color: #6cb4fc;
+}
+
+.footer-name {
+    height: 50px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.footer-social {
+    height: 40px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-socialmedia {
+    height: 40px;
+    width: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+
+footer i {
+    color: white;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.copyright p {
+    margin-bottom: 5px;
+}
+
+.copyright span {
+    color: red;
+}
