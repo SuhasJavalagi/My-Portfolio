@@ -1201,6 +1201,7 @@ input {
     height: 200px;
     width: 100vw;
     background-color: #6cb4fc;
+    margin-top: 50px;
 }
 
 .footer-name {
@@ -1213,6 +1214,8 @@ input {
     font-weight: 900;
     color: #ffffff;
 }
+
+
 
 .footer-social {
     height: 40px;
