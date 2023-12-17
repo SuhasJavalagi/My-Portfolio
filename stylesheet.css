@@ -101,6 +101,17 @@ header {
     transition-property: all;
 }
 
+.link5 {
+    background-color: rgb(224, 224, 224);
+    width: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0s;
+    transition-timing-function:ease-in-out;
+    transition-property: all;
+}
+
 .link1:hover {
     transform: scale(110%);
 }
@@ -114,6 +125,10 @@ header {
 }
 
 .link4:hover {
+    transform: scale(110%);
+}
+
+.link5:hover {
     transform: scale(110%);
 }
 
