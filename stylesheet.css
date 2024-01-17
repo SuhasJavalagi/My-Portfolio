@@ -30,6 +30,11 @@ header {
     flex-wrap: wrap;
 }
 
+
+@media screen and (min-width: 480px) {
+    .navbar {width: 500px; float: left;}
+}
+
 .navlogo {
     height:70px;
     width: 70px;
@@ -147,12 +152,6 @@ header {
     opacity: 80%;
 }
 
-.heroempty {
-    height: 650px;
-    width: 100vw;
-    /* background-color: #e4faf2e0; */
-    opacity: 80%;
-}
 
 .herosentence {
     font-size: 1.5rem;
@@ -190,19 +189,15 @@ header {
 .heropredefine {
     height: 50px;
     width: 100vw;
-    /* border: 5px solid black; */
+    border: 2px solid black;
     display: flex;
     justify-content: center;
 }
 
 
-.herodefine {
-    width: 800px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    /* border: 2px solid black; */
-}
+/* .herodefine {
+    width: 100%;
+} */
 
 .heropost {
     display: flex;
@@ -211,7 +206,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     text-align: center;
     left: 30%;
 }
@@ -447,7 +442,7 @@ header {
 
 .aboutdetails {
     height: 300px;
-    width: 650px;
+    width: 500px;
     /* border: 2px solid blue; */
     margin-top: 50px;
 }
@@ -507,7 +502,7 @@ header {
 
 .skillsection {
     height: 500px;
-    width: 1200px;
+    width: 1000px;
     /* border: 2px solid black; */
 }
 
@@ -1095,7 +1090,7 @@ header {
 
 .contact-form {
     height: 300px;
-    width: 800px;
+    width: 500px;
     /* border: 2px solid black; */
 }
 
@@ -1206,7 +1201,7 @@ input {
 
 .footer-name {
     height: 50px;
-    width: 100vw;
+    width: 100%;
     /* border: 2px solid black; */
     text-align: center;
     font-family:  sans-serif;
