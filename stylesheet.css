@@ -2,7 +2,9 @@
     margin: 0;
     border: border-box;
 }
-
+ body {
+    overflow-x: hidden;
+ }
 header {
     position: sticky;
     top: 0;
@@ -12,6 +14,7 @@ header {
 .nav{
     display: flex;
     justify-content: center;
+    backdrop-filter: blur(10px);
 }
 
 
@@ -30,15 +33,18 @@ header {
 }
 
 
-@media screen and (min-width: 480px) {
-    .navbar {width: 500px; float: left;}
-}
+/* @media screen and (min-width: 480px) {
+    .navbar {width: 550px; float: left;}
+} */
 
 .navlogo {
+    background-image: url(./Asset/logo.png);
+    background-size: contain;
     height:70px;
     width: 70px;
     display: inline-block;
-    margin-right: 50px;
+    position: relative;
+    right: 10px;
 }
 
 /* .logo {
@@ -107,7 +113,7 @@ header {
 
 .link5 {
     background-color: rgb(224, 224, 224);
-    width: 70px;
+    width: 100px;
     padding: 10px;
     border-radius: 20px;
     text-align: center;
@@ -118,22 +124,101 @@ header {
 
 .link1:hover {
     transform: scale(110%);
+    background-color: #ffffff;
+    color: #0080ff;
 }
 
 .link2:hover {
     transform: scale(110%);
+    background-color: #ffffff;
+    color: #0080ff;
 }
 
 .link3:hover {
     transform: scale(110%);
+    background-color: #ffffff;
+    color: #0080ff;
 }
 
 .link4:hover {
     transform: scale(110%);
+    background-color: #ffffff;
+    color: #0080ff;
 }
 
 .link5:hover {
     transform: scale(110%);
+    background-color: #ffffff;
+    color: #0080ff;
+}
+
+.feedbackalign {
+    position: sticky;
+    z-index: 1;
+}
+
+.feedback {
+    position: absolute;
+    left: 93%;
+    top: 550px;
+}
+
+.feedbackBackground {
+    height: 50px;
+    width: 50px;
+    background-color:rgb(194, 227, 255);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.feedbackBackground:hover {
+    transform: scale(150%);
+    color: #0080ff;
+}
+
+.myForm {
+    position: sticky;
+    z-index: 1;
+    top: 52%;
+    text-align: center;
+
+}
+
+.feedbackForm {
+    position: absolute;
+    left: 70%;
+    height: 300px; 
+    width: 300px; 
+    background-color: rgb(194, 227, 255);
+    border-radius: 10px;
+}
+
+.feedbackForm h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.feedbackForm textarea {
+    background-color: white;
+}
+
+.feedbackForm input {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
+.feedbackForm button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
 }
 
 .hero {
@@ -142,7 +227,7 @@ header {
 
 .heroimg {
     background-image: url("./Asset/nasa.jpg");
-    height: 730px;
+    height: 750px;
     width: 100vw;
     background-size: cover;
     display: flex;
@@ -676,14 +761,14 @@ header {
 
 .HTMLcolor {
     height: 20px;
-    width: 70%;
+    width: 90%;
     background-color: rgb(0, 132, 255);
     border-radius: 10px;
 }
 
 .CSScolor {
     height: 20px;
-    width: 70%;
+    width: 85%;
     background-color: rgb(0, 132, 255);
     border-radius: 10px;
 }
@@ -919,13 +1004,14 @@ header {
     border-left: 5px solid rgb(0, 179, 255); */
     margin-right: 0px;
     margin-left: 0px;
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
     transition-timing-function:ease-in-out;
     transition-property: all;
 }
 
 .mechclick:hover {
-    transform: scale(110%);
+    transform: scale(105%);
+    background: #6ebdfe;
     /* border-left: 5px solid rgb(255, 153, 0);
     border-right: 5px solid rgb(255, 153, 0); */
 }
@@ -1046,14 +1132,15 @@ header {
     background-color: lightblue;
     border-radius: 50%;
     /* border: 5px solid rgb(0, 179, 255); */
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
     transition-property: all;
     /* border: 2px solid rgb(255, 0, 0); */
 }
 
 .webdevclick:hover {
-    transform: scale(110%);
+    transform: scale(105%);
+    background: #6ebdfe;
     /* border-left: 5px solid rgb(255, 153, 0);
     border-right: 5px solid rgb(255, 153, 0); */
 }
@@ -1112,6 +1199,11 @@ header {
     }
 } */
 
+
+.portfolio-div p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
 
 
 /* porfolio ends here */
@@ -1217,7 +1309,7 @@ header {
     /* border: 2px solid black; */
 }
 
-input {
+.form-div input {
     height: 30px;
     width: 205px;
     margin-left: 20px;
