@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates</title>
+    <link rel="icon" type="image/x-icon" href="./Asset/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CertificatesStyleSheet.css">
+</head>
+<body>
+    
+    <header>
+        <div class="Mynav">
+            <div class="Mynavlogo">
+                <div class="logo"></div>
+             </div>
+             <div class="Mynavbar">
+                <a href="./index.html">
+                    <div class="link1">Home</div>
+                </a>
+                <a href="./index.html #portfolio">
+                    <div class="link2">Projects</div>
+                </a>
+                <a href="./index.html #resume">
+                    <div class="link4">Resume</div>
+                </a>
+                <a href="./index.html #portfolio">
+                    <div class="link3">Porfolio</div>
+                </a>
+                <a href="./certificates.html">
+                    <div class="link5">Certifications</div>
+                </a>     
+            </div>
+        </div>
+    </header>
+
+        <hr>
+        <div class="headingTitle"><h1>My Certifications</h1></div>
+        <hr>
+        <div class="Mycontents">
+            <div class="certificatesList">
+                <div class="card" style="width: 18rem;margin-top: 2rem;;margin-bottom: 2rem;">
+                    <img src="./Asset/Nptel.png" style="height: 10rem;width: 10rem;align-self: center;" class="card-img-top" alt="NPTEL Principles Of Metal Forming Technology">
+                    <div class="card-body">
+                      <h5 class="card-title">Principles Of Metal Forming Technology</h5>
+                      <br>
+                      <a href="#" class="btn btn-primary" onclick="openphoto()">View Certificate</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;margin-top: 2rem;;margin-bottom: 2rem;">
+                    <img src="./Asset/TATA2.png" style="padding: 1rem;;margin-top: 1.25rem;margin-bottom: 1.25rem;" class="card-img-top" alt="NPTEL Principles Of Metal Forming Technology">
+                    <div class="card-body">
+                      <h5 class="card-title">Tata Technologies Ready Engineer Certificate</h5>
+                      <br>
+                      <a href="#" class="btn btn-primary" onclick="openTata()">View Certificate</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;margin-top: 2rem;;margin-bottom: 2rem;">
+                    <img src="./Asset/TATA.png" style="margin-top: 1.25rem;margin-bottom: 1.25rem;" class="card-img-top" alt="NPTEL Principles Of Metal Forming Technology">
+                    <div class="card-body">
+                      <h5 class="card-title">Soft Skill Certificate by konnect</h5>
+                      <br>
+                      <a href="#" class="btn btn-primary" onclick="openSoft()">View Certificate</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;margin-top: 2rem;margin-bottom: 2rem;">
+                    <img src="./Asset/TATA.png" style="margin-top: 1.25rem;margin-bottom: 1.25rem;" class="card-img-top" alt="NPTEL Principles Of Metal Forming Technology">
+                    <div class="card-body">
+                      <h5 class="card-title">Employability Certificate from CoCubes</h5>
+                      <br>
+                      <a href="#" class="btn btn-primary" onclick="openCoCubes()">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img1" id="Photo1" style="position: relative;bottom: 57rem;display: none;">
+            <button id="close" onclick="closephoto()"><i class="fa-solid fa-circle-xmark"></i>&nbsp;Close</button>
+            <img id="Nptel1" src="./Asset/Principles-Of-Metal-Forming-Technology/Principles Of Metal Forming Technology_page-0001.jpg" alt="Principles-Of-Metal-Forming-Technology" style="width: 100vw;position: relative;">
+        </div>
+        <div class="img2" id="Photo2" style="position: relative;bottom: 57rem;display: none;">
+            <button id="close" onclick="closeTata()"><i class="fa-solid fa-circle-xmark"></i>&nbsp;Close</button>
+            <img id="Tata1" src="./Asset/Tata-Technologies-Ready-Engineer-Certificate/Tata Technologies Ready Engineer Certificate_page-0001.jpg" alt="Tata-Technologies-Ready-Engineer-Certificate" style="width: 100vw;position: relative;">
+        </div>
+        <div class="img3" id="Photo3" style="position: relative;bottom: 57rem;display: none;">
+            <button id="close" onclick="closeSoft()"><i class="fa-solid fa-circle-xmark"></i>&nbsp;Close</button>
+            <img id="Tata2" src="./Asset/Tata Technologies Soft Skills Certificate_page-0001/Tata Technologies Soft Skills Certificate_page-0001.jpg" alt="Soft Skill Certificate by konnect" style="width: 100vw;position: relative;">
+        </div>
+        <div class="img4" id="Photo4" style="position: relative;bottom: 57rem;display: none;">
+            <button id="close" onclick="closeCoCubes()"><i class="fa-solid fa-circle-xmark"></i>&nbsp;Close</button>
+            <img id="Tata3" src="./Asset/Tata-Technologies-Ready-Engineer-Employment-Certificate-By-COCUBES/Tata Technologies Ready Engineer Employment Certificate By COCUBES_page-0001.jpg" alt="Employability Certificate from CoCubes" style="width: 100vw;position: relative;">
+        </div>
+        
+
+
+         <!-- footer starts here -->
+    <footer>
+        <div class="footer-content" id="contact">
+            <div class="footer-name">
+                <h1>Suhas Aravind Javalagi</h1>
+            </div>
+            <div class="footer-social">
+                <div class="footer-socialmedia">
+                    <div class="linkedin"><a href="https://www.linkedin.com/in/suhas-javalagi/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                    <div class="insta"><a href="https://www.instagram.com/suhas_javalagi/" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="facebook"><a href="https://www.facebook.com/suhas.javalagi/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
+                    <div class="github"><a href="https://github.com/SuhasJavalagi" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                </div>
+            </div>
+            <div class="copyright">
+                <!-- <p>© Copyright My-Resume. All Rights Reserved</p> -->
+                <p>Designed with <span> &hearts; </span> by Suhas Javalagi.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <script>
+        function openphoto() {
+            document.getElementById("Photo1") .style.display = "block";
+        }
+        function closephoto(){
+            document.getElementById ("Photo1") .style.display = "none";
+        }
+        function openTata() {
+            document.getElementById("Photo2") .style.display = "block";
+        }
+        function closeTata(){
+            document.getElementById ("Photo2") .style.display = "none";
+        }
+        function openSoft() {
+            document.getElementById("Photo3") .style.display = "block";
+        }
+        function closeSoft(){
+            document.getElementById ("Photo3") .style.display = "none";
+        }
+        function openCoCubes() {
+            document.getElementById("Photo4") .style.display = "block";
+        }
+        function closeCoCubes(){
+            document.getElementById ("Photo4") .style.display = "none";
+        }
+    </script>
+</body>
+</html>
