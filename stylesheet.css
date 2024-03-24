@@ -33,9 +33,9 @@ header {
 }
 
 
-/* @media screen and (min-width: 480px) {
-    .navbar {width: 550px; float: left;}
-} */
+@media screen and (min-width: 580px) {
+    .navbar {width: 650px;}
+}
 
 .navlogo {
     background-image: url(./Asset/logo.png);
@@ -152,7 +152,7 @@ header {
     color: #0080ff;
 }
 
-.feedbackalign {
+/* .feedbackalign {
     position: sticky;
     z-index: 1;
 }
@@ -219,7 +219,7 @@ header {
     padding: 10px;
     border: none;
     margin-left: 10px;
-}
+} */
 
 .hero {
     position:static;
@@ -279,8 +279,8 @@ header {
     top: 220px;
 }
 
-.herointro  {
-    animation: nameIn 1s linear;
+.herointro h1  {
+    animation: nameIn 1s ease-in;
 }
 
 @keyframes nameIn {
