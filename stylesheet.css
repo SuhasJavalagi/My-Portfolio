@@ -278,7 +278,7 @@ header {
     position: relative;
     top: 220px;
 }
-
+/* 
 .herointro h1  {
     animation: nameIn 1s ease-in;
 }
@@ -289,7 +289,7 @@ header {
     50% { left: 100px; }
     75% { left: 50px;}
     100% { left: 0;}
-}
+} */
 
 .heropredefine {
     height: 50px;
