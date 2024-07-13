@@ -257,15 +257,7 @@ header {
     100%{right:0px;}
 }
 
-.herointrodiv {
-    display: inline-block;
-    height: 750px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 220px;
-}
+
 
 .herointro {
     font-size: 1.6rem;
